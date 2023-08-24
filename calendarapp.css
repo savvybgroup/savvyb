@@ -24,16 +24,17 @@
 }
 
 body {
-    background-color: #ffff;
+    background-color: #FFF;
     text-align: center;
     zoom: 80%;
     margin: top 1em, left 4em, right 4em, bottom 1em;
+
 }
 
 aside {
     text-align: center;
-    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
-    border-image-width: 50%;
+    background: #FFF;
+    border-image-width: 100%;
 }
 
 footer {
@@ -65,8 +66,15 @@ h2 {
     font-size: 20pt;
 }
 
-footer {
-    vertical-align: middle
+footer#footer {
+
+
+    width: 100%;
+    color: #424242;
+    text-align: left;
+    font-size: 15px;
+    font: sams;
+
 }
 
 .ilustracao-topo-4 {
@@ -80,13 +88,14 @@ footer {
     text-align: center;
     font-family: cy, sans-serif;
     color: #ffff;
-    font-size: 14pt;
+    font-size: 15pt;
     font-weight: 700;
     font-style: normal;
     border-radius: 30px;
     border-style: solid;
     border-color: #583ce3;
-    width: 12%;
+    max-width: 50%;
+    min-width: 20%;
     height: 50px;
     margin: 30px;
     border: 30px;
@@ -105,17 +114,17 @@ footer {
 
 .logoai {
     vertical-align: middle;
-    width: 700px;
-    height: 230px;
+    max-width: 100%;
+    height: 200px;
     margin: 0 auto;
 }
 
 .logo {
-    width: 440px;
-    height: 130px;
+    max-width: 100%;
+    height: 180px;
     top: 30px;
     left: 405px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .paragsobre {
@@ -273,6 +282,7 @@ footer {
     height: 700px;
     background: #FFF;
     margin: 0 auto;
+    border-radius: 10px;
 
 
 
@@ -347,9 +357,11 @@ footer {
 }
 
 .sobretext {
-    margin: 5px auto;
+    margin: auto;
     width: 1000px;
     height: 1000 x;
+    padding: auto;
+    border-radius: 10px;
 }
 
 .contactname {
@@ -427,7 +439,15 @@ footer {
 }
 
 .contacttext {
+    color: #424242;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
     display: flex;
+    font-family: sans-serif;
+    font-size: 100%;
+    font-display: swap;
     flex-wrap: wrap;
     font-size: 100%;
     flex-direction: column;
@@ -452,7 +472,7 @@ footer {
     border-radius: 30px;
     border-style: solid;
     border-color: #583ce3;
-    width: 12%;
+    width: 30%;
     height: 50px;
     margin: 30px;
     border: 30px;
@@ -469,11 +489,131 @@ footer {
 
 .contactform {
     display: flex;
+    font-display: swap;
+    flex-wrap: wrap;
+    flex-direction: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+    background: #FFF;
+    margin: auto;
+    color: #424242;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 10px;
+
+
+}
+
+.contacttext {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 2%;
+}
+
+.contactname {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 2%;
+}
+
+.contactemail {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 2%;
+}
+
+.contactphone {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 2%;
+}
+
+.contacttext:hover {
+    background-color: #E8E9EA;
+    color: #424242;
+    transition: background-color 0.10s;
+    opacity: .7;
+}
+
+.contactname:hover {
+    background-color: #E8E9EA;
+    color: #424242;
+    transition: background-color 0.10s;
+    opacity: .7;
+}
+
+.contactemail:hover {
+    background-color: #E8E9EA;
+    color: #424242;
+    transition: background-color 0.10s;
+    opacity: .7;
+}
+
+.contactphone:hover {
+    background-color: #E8E9EA;
+    color: #424242;
+    transition: background-color 0.10s;
+    opacity: .7;
+}
+
+/* Home Page */
+
+@media screen and (max-width: 768px) {
+    #fullresponsive {
+        margin: auto;
+        font-size: auto;
+        min-width: none;
+        max-width: fit-content;
+
+    }
+
+    #fullresponsive button {
+        align-items: center;
+        width: 35%;
+        display: inline-flexbox;
         flex-wrap: wrap;
-        flex-direction: center;
-        justify-content: center;
-        width: 400px;
-        height: 700px;
-        background: #FFF;
-        margin: 0 auto;
+    }
+
+    .Consultoriab {
+        text-align: center;
+        font-family: cy, sans-serif;
+        color: #ffff;
+        font-size: 15pt;
+        font-weight: 700;
+        font-style: normal;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: #583ce3;
+        max-width: 50%;
+        min-width: 45%;
+        height: 50px;
+        margin: 30px;
+        border: 30px;
+        background-color: #583ce3;
+        cursor: pointer;
+        box-shadow: 0 0 16px rgba(33, 33, 33, .2);
+    }
+
+
+    /* Sobre Page */
+    aside#sobretextresponsive.sobretext {
+        max-width: 85%;
+        min-width: 35%;
+    }
+
+    img#logoairesponsive.logoai {
+        align-items: center;
+    }
+
+    aside#serviceboxesresponsive.servicesboxes {
+        max-width: 50%;
+        min-width: 15%;
+    }
 }
