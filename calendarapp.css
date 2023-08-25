@@ -37,19 +37,6 @@ aside {
     border-image-width: 100%;
 }
 
-footer {
-    font-family: Open-sans;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #424242;
-    width: 320px;
-    height: 44px;
-    top: 7167px;
-    left: 405px;
-}
 
 h1 {
     text-align: center;
@@ -67,20 +54,74 @@ h2 {
 }
 
 footer#footer {
-
-
-    width: 100%;
+    padding: 5px;
+    width: auto;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #9b80ff;
     color: #424242;
-    text-align: left;
+    font-family: Open Sans;
     font-size: 15px;
-    font: sams;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: bottom;
+    color: #424242;
+    position: static;
+    grid-template-rows: 10px;
+}
 
+
+#termosdeuso {
+    text-align: justify;
+    font-family: sans-serif;
+    color: #a2a2a2;
+    font-size: 17pt;
+    max-width: 85%;
+    min-width: 15%;
+    margin: 0 auto;
+}
+
+#termossavvybuso {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+
+#termosdeusoatt {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+
+}
+
+#politicadeprivacidade {
+    text-align: justify;
+    font-family: sans-serif;
+    color: #a2a2a2;
+    font-size: 17pt;
+    max-width: 85%;
+    min-width: 15%;
+    margin: 0 auto;
+    list-style: disc;
+
+}
+
+#politicadeprivacidadepp {
+    text-align: justify;
+    font-family: sans-serif;
+    color: #a2a2a2;
+    font-size: 17pt;
+    max-width: 85%;
+    min-width: 15%;
+    margin: 0 auto;
+    list-style: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
 }
 
 .ilustracao-topo-4 {
     vertical-align: middle;
     width: 377px;
-    height: 487px;
+    height: 450px;
     margin: 2em auto;
 }
 
@@ -278,8 +319,9 @@ footer#footer {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 1920px;
-    height: 700px;
+    max-width: 90%;
+    min-width: 15%;
+    max-height: fit-content;
     background: #FFF;
     margin: 0 auto;
     border-radius: 10px;
@@ -615,5 +657,15 @@ footer#footer {
     aside#serviceboxesresponsive.servicesboxes {
         max-width: 50%;
         min-width: 15%;
+    }
+
+    footer#footer {
+
+        max-width: 100%;
+        min-width: 15%;
+    }
+
+    footer p#footer {
+        flex-direction: bottom;
     }
 }
