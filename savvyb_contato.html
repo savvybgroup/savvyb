@@ -7,58 +7,62 @@
     <title>Contato Savvy B</title>
 
     <link rel="stylesheet" href="calendarapp.css">
-    
+
 
 </head>
 
 <body>
     <section id="fullresponsive">
 
-    <menu id="topnav">
-        <a href="savvyb_home.html">
-            <button class="menu">Home</button></a>
-        <a href="savvyb_sobre.html">
-            <button class="menu">Sobre</button></a>
-        <a href="savvyb_servicos.html"><button class="menu">Serviços</button></a>
-        <!-- <a href="avaliacao.html"><button class="menu">Avaliações</button></a>-->
-        <a href="savvyb_contato.html"><button class="menu">Contato</button></a>
-    </menu>
+        <menu id="topnav">
+            <a href="savvyb_home.html">
+                <button class="menu">Home</button></a>
+            <a href="savvyb_sobre.html">
+                <button class="menu">Sobre</button></a>
+            <a href="savvyb_servicos.html"><button class="menu">Serviços</button></a>
+            <!-- <a href="avaliacao.html"><button class="menu">Avaliações</button></a>-->
+            <a href="savvyb_contato.html"><button class="menu">Contato</button></a>
+        </menu>
 
-    <nav class="ajustmargin">
-        <p>
-            <img class="logoai"
-                src="logoMARCA-HORIZONTAL-GRADIENTE-SAVVY-B_POSITIVO_RGB.png"
-                alt="logomarca da savvyb ai">
+        <nav class="ajustmargin">
+            <p>
+                <img class="logoai" src="logoMARCA-HORIZONTAL-GRADIENTE-SAVVY-B_POSITIVO_RGB.png"
+                    alt="logomarca da savvyb ai">
+            </p>
+            <h1>Entre em contato ;)</h1>
+            <h2>Ainda tem dúvidas ou quer falar algo com a gente? Envie a sua mensagem, a gente responde em até 48
+                horas.
+            </h2>
+            <div>
+                <form action="https://api.sheetmonkey.io/form/nAtLHoXu1kVbbpPbE7VvcQ" method="post" class="contactform"
+                    id="insert_form">
+
+                    <input class="contactname" type="text" name="name" id="name" placeholder="Nome completo" required />
+
+                    <input class="contactemail" type="email" name="email" id="email" placeholder="E-mail" required />
+
+                    <input class="contactphone" id="phone" type="tel" name="phone" data-js="phone"
+                        placeholder="Cel - Ex: (xxx) xxxxx - xxxx" maxlength="12"
+                        onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+
+                    <textarea class="contacttext" name="Requests?" id="requests" data-js="requests"
+                        placeholder="Deixe aqui sua mensagem" required maxlength="1000"></textarea>
+
+                    <input class="botaoenviar" type="submit" class="btn" value="Enviar!" name="savvycontact_form"
+                        id="savvycontact_form" />
+
+                </form>
+            </div>
+            <div class="alert alert-info" style="display: none;"></div>
+
+        </nav>
         </p>
-        <h1>Entre em contato ;)</h1>
-        <h2>Ainda tem dúvidas ou quer falar algo com a gente? Envie a sua mensagem, a gente responde em até 48 horas.
-        </h2>
-        <div>
-            <form action="https://api.sheetmonkey.io/form/nAtLHoXu1kVbbpPbE7VvcQ" method="post" class="contactform" id="insert_form">
 
-                <input class="contactname" type="text" name="name" id="name" placeholder="Nome completo" required />
-
-                <input class="contactemail" type="email" name="email" id="email" placeholder="E-mail" required />
-
-                <input class="contactphone" id="phone" type="tel" name="phone" data-js="phone" placeholder="Cel - Ex: (xxx) xxxxx - xxxx" maxlength="12" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
-
-                <textarea class="contacttext" name="Requests?" id="requests" data-js="requests"
-                    placeholder="Deixe aqui sua mensagem" required maxlength="1000"></textarea>
-
-                <input class="botaoenviar" type="submit" class="btn" value="Enviar!" name="savvycontact_form" id="savvycontact_form" />
-
-            </form>
-        </div>
-        <div class="alert alert-info" style="display: none;"></div>
-
-    </nav>
-    </p>
-
-    <footer id="footer">
-    <p>Copyright 2021 © Savvy B. Todos os direitos reservados. • <a href="termosdeuso.html">Termos de Uso
-        </a>• <a href="politicadeprivacidade.html">Política de Privacidade</a></p>
-    </footer>
-    <script src="savvyb.js"></script>
+        <footer id="footer">
+            <p>Copyright 2023 © Savvy B. Todos os direitos reservados. • <a href="termosdeuso.html">Termos de Uso
+                </a>• <a href="politicadeprivacidade.html">Política de Privacidade</a></p>
+        </footer>
+        <script src="savvyb.js"></script>
     </section>
 </body>
 
