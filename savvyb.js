@@ -1,4 +1,4 @@
-document.querySelectorAll('input').forEach(($input) => { })
+/*document.querySelectorAll('input').forEach(($input) => { })
 const field = $input.dataset.js
 $input.addEventListener('input', (e) => {
 
@@ -43,3 +43,9 @@ const handleSubmit = (event) => {
 
 }
 document.querySelector('#insert_form').addEventListener('submit', handleSubmit)
+
+function eventOnClick() {
+    //alert('Obrigado pela sua mensagem. Retornaremos em breve!');
+    
+    window.location.href = "https://www.savvyb.com.br";
+}*/
