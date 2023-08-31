@@ -650,10 +650,12 @@ footer#footer {
         width: 100%;
 
     }
-    #topnav {
+
+    menu {
         align-items: center;
         display: block;
-        width: 150px;
+        margin-block-start: 0;
+        margin-block-end: 0;
     }
 
     /* Sobre Page */
