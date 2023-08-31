@@ -611,7 +611,7 @@ footer#footer {
     #fullresponsive {
         margin: auto;
         font-size: auto;
-        min-width: none;
+        min-width: 320px;
         max-width: fit-content;
 
     }
@@ -643,6 +643,9 @@ footer#footer {
         box-shadow: 0 0 16px rgba(33, 33, 33, .2);
     }
 
+    .logo {
+        align-items: center;
+    }
 
     /* Sobre Page */
     aside#sobretextresponsive.sobretext {
