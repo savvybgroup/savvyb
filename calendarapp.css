@@ -135,8 +135,8 @@ footer#footer {
     border-radius: 30px;
     border-style: solid;
     border-color: #583ce3;
-    max-width: 50%;
-    min-width: 20%;
+    max-width: 30%;
+    min-width: 14%;
     height: 50px;
     margin: 30px;
     border: 30px;
@@ -617,10 +617,11 @@ footer#footer {
     }
 
     #fullresponsive button {
+
         align-items: center;
         width: 35%;
-        display: inline-flexbox;
         flex-wrap: wrap;
+        font-size: 120%;
     }
 
     .Consultoriab {
@@ -645,6 +646,7 @@ footer#footer {
 
     .logo {
         align-items: center;
+        height: fit-content;
     }
 
     /* Sobre Page */
