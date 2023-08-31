@@ -42,10 +42,10 @@ const handleSubmit = (event) => {
     });
 
 }
-document.querySelector('#insert_form').addEventListener('submit', handleSubmit)
+document.querySelector('#insert_form').addEventListener('submit', handleSubmit)*/
 
 function eventOnClick() {
-    //alert('Obrigado pela sua mensagem. Retornaremos em breve!');
+    alert('Obrigado pela sua mensagem. Retornaremos em breve!');
     
-    window.location.href = "https://www.savvyb.com.br";
-}*/
+    //window.location.href = "https://www.savvyb.com.br";
+}
