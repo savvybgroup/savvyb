@@ -651,7 +651,7 @@ footer#footer {
 
     }
 
-    menu {
+    menu#topnav {
         align-items: center;
         display: block;
         margin-block-start: 0;
