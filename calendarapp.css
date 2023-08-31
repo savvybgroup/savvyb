@@ -650,6 +650,11 @@ footer#footer {
         width: 100%;
 
     }
+    #topnav {
+        align-items: center;
+        display: block;
+        width: 150px;
+    }
 
     /* Sobre Page */
     aside#sobretextresponsive.sobretext {
