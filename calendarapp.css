@@ -656,6 +656,7 @@ footer#footer {
         display: block;
         margin-block-start: 0;
         margin-block-end: 0;
+        block-size: 50%;
     }
 
     /* Sobre Page */
