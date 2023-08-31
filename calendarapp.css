@@ -646,7 +646,9 @@ footer#footer {
 
     .logo {
         align-items: center;
-      
+        height: 10%;
+        width: 50%;
+
     }
 
     /* Sobre Page */
