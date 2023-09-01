@@ -244,7 +244,7 @@ footer#footer {
     border-radius: 10px;
     border: 1px solid #E8E9EA;
     background: #FFF;
-    margin: 1em ;
+    margin: 1em;
     box-shadow: 0 0 16px rgba(33, 33, 33, .2);
 }
 
@@ -614,21 +614,28 @@ footer#footer {
         font-size: auto;
         min-width: 320px;
         max-width: fit-content;
-        zoom: 82%;
-        
+        zoom: 70%;
+
     }
 
     #fullresponsive button {
 
         align-items: center;
-        width: 35%;
+        width: 40%;
         flex-wrap: wrap;
         font-size: 120%;
     }
 
-    button#prodeli {
-        width: 12%;
+    button#agendeaquibutton {
+
+        width: 45%;
     }
+
+    button#prodeli {
+
+        width: 16%;
+    }
+
     .Consultoriab {
         text-align: center;
         font-family: cy, sans-serif;
@@ -651,8 +658,8 @@ footer#footer {
 
     .logo {
         align-items: center;
-        height: 100%;
-        width: 100%;
+        height: 70%;
+        width: 70%;
 
     }
 
@@ -666,20 +673,20 @@ footer#footer {
         min-width: 250px;
     }
 
-h1#cyfont {
-    text-align: center;
-    font-family: cy, cy;
-    color: #424242;
-    font-size: 40pt;
-    margin: 0 auto;
-}
+    #cyfont {
+        text-align: center;
+        font-family: cy;
+        color: #424242;
+        font-size: 35pt;
+        margin: 0 auto;
+    }
 
-h2#cyfont {
-    text-align: center;
-    font-family: cy, cy;
-    color: #a2a2a2;
-    font-size: 20pt;
-}
+    #cyfont2 {
+        text-align: center;
+        font-family: cy;
+        color: #a2a2a2;
+        font-size: 20pt;
+    }
 
     /* Sobre Page */
     aside#sobretextresponsive.sobretext {
@@ -689,6 +696,9 @@ h2#cyfont {
 
     img#logoairesponsive.logoai {
         align-items: center;
+        height: 30%;
+        width: 30%;
+
     }
 
     aside#serviceboxesresponsive.servicesboxes {
@@ -705,5 +715,7 @@ h2#cyfont {
 
     footer p#footer {
         flex-direction: bottom;
+
     }
+
 }
