@@ -659,6 +659,7 @@ footer#footer {
         margin-block-end: 0;
         block-size: 50%;
         padding-inline-start: 0px;
+        min-width: 250px;
     }
 
     /* Sobre Page */
