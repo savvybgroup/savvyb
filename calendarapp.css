@@ -664,7 +664,7 @@ footer#footer {
 
 h1#cyfont {
     text-align: center;
-    font-family: cy, sans-serif;
+    font-family: cy, cy;
     color: #424242;
     font-size: 40pt;
     margin: 0 auto;
@@ -672,7 +672,7 @@ h1#cyfont {
 
 h2#cyfont {
     text-align: center;
-    font-family: cy, sans-serif;
+    font-family: cy, cy;
     color: #a2a2a2;
     font-size: 20pt;
 }
