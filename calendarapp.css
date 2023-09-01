@@ -662,6 +662,21 @@ footer#footer {
         min-width: 250px;
     }
 
+h1 {
+    text-align: center;
+    font-family: cy, sans-serif;
+    color: #424242;
+    font-size: 40pt;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: cy, sans-serif;
+    color: #a2a2a2;
+    font-size: 20pt;
+}
+
     /* Sobre Page */
     aside#sobretextresponsive.sobretext {
         max-width: 85%;
