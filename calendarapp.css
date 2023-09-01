@@ -662,7 +662,7 @@ footer#footer {
         min-width: 250px;
     }
 
-h1 {
+h1#cyfont {
     text-align: center;
     font-family: cy, sans-serif;
     color: #424242;
@@ -670,7 +670,7 @@ h1 {
     margin: 0 auto;
 }
 
-h2 {
+h2#cyfont {
     text-align: center;
     font-family: cy, sans-serif;
     color: #a2a2a2;
