@@ -35,6 +35,7 @@ aside {
     text-align: center;
     background: #FFF;
     border-image-width: 100%;
+    padding-top: 0;
 }
 
 
@@ -181,12 +182,12 @@ footer#footer {
     align-items: center;
     justify-content: center;
     width: 380px;
-    height: 500px;
+    height: 510px;
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #E8E9EA;
     background: #FFF;
-    margin: 5em auto;
+    margin: 1em;
     box-shadow: 0 0 16px rgba(33, 33, 33, .2);
 }
 
@@ -200,12 +201,12 @@ footer#footer {
 .savvybavulso {
     display: flexbox;
     width: 380px;
-    height: 500px;
+    height: 510px;
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #E8E9EA;
     background: #FFF;
-    margin: 5em auto;
+    margin: 1em;
     box-shadow: 0 0 16px rgba(33, 33, 33, .2);
 }
 
@@ -219,12 +220,12 @@ footer#footer {
 .savvybpacote {
     display: flexbox;
     width: 380px;
-    height: 500px;
+    height: 510px;
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #E8E9EA;
     background: #FFF;
-    margin: 5em auto;
+    margin: 1em;
     box-shadow: 0 0 16px rgba(33, 33, 33, .2);
 }
 
@@ -238,12 +239,12 @@ footer#footer {
 .savvybbusiness {
     display: flexbox;
     width: 380px;
-    height: 500px;
+    height: 510px;
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #E8E9EA;
     background: #FFF;
-    margin: 5em auto;
+    margin: 1em ;
     box-shadow: 0 0 16px rgba(33, 33, 33, .2);
 }
 
@@ -613,7 +614,7 @@ footer#footer {
         font-size: auto;
         min-width: 320px;
         max-width: fit-content;
-
+        
     }
 
     #fullresponsive button {
@@ -657,6 +658,7 @@ footer#footer {
         margin-block-start: 0;
         margin-block-end: 0;
         block-size: 50%;
+        padding-inline-start: 0px;
     }
 
     /* Sobre Page */
@@ -672,6 +674,7 @@ footer#footer {
     aside#serviceboxesresponsive.servicesboxes {
         max-width: 50%;
         min-width: 15%;
+
     }
 
     footer#footer {
